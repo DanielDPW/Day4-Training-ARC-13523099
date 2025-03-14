@@ -10,8 +10,8 @@ You will receive one of three possible topologies.
 | Device     | Interface     | IP Address         | Default Gateway |
 |------------|-------------|--------------------|----------------|
 | College    | G0/0        | 172.14.5.1/24      | N/A            |
-|            | G0/1        | 172.14.10.1/24     | N/A            |
-|            |             | 2001:DB8:CAFE:1::1/64 |               |
+|            |             | 172.14.10.1/24     |                |
+|            | G0/1        | 2001:DB8:CAFE:1::1/64 | N/A           |
 |            |             | 2001:DB8:CAFE:2::1/64 |               |
 | Class-A    | VLAN 1      | 172.14.5.35/24     | 172.14.5.1     |
 | Class-B    | VLAN 1      | 172.14.10.35/24    | 172.14.10.1    |
