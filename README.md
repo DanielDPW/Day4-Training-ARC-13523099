@@ -15,14 +15,14 @@ You will receive one of three possible topologies.
 |            |             | 2001:DB8:CAFE:2::1/64 |               |
 | Class-A    | VLAN 1      | 172.14.5.35/24     | 172.14.5.1     |
 | Class-B    | VLAN 1      | 172.14.10.35/24    | 172.14.10.1    |
-| Student-1  | NIC        | 172.14.5.50/24     | FE80::1        |
-|            |             | 2001:DB8:CAFE:1::50/64 |            |
-| Student-2  | NIC        | 172.14.5.60/24     | FE80::1        |
-|            |             | 2001:DB8:CAFE:1::60/64 |            |
-| Student-3  | NIC        | 172.14.10.50/24    | FE80::2        |
-|            |             | 2001:DB8:CAFE:2::50/64 |            |
-| Student-4  | NIC        | 172.14.10.60/24    | FE80::2        |
-|            |             | 2001:DB8:CAFE:2::60/64 |            |
+| Student-1  | NIC        | 172.14.5.50/24     |                 |
+|            |             | 2001:DB8:CAFE:1::50/64 | FE80::1     |
+| Student-2  | NIC        | 172.14.5.60/24     |               |
+|            |             | 2001:DB8:CAFE:1::60/64 | FE80::1    |
+| Student-3  | NIC        | 172.14.10.50/24    |                |
+|            |             | 2001:DB8:CAFE:2::50/64 | FE80::2        |
+| Student-4  | NIC        | 172.14.10.60/24    |        |
+|            |             | 2001:DB8:CAFE:2::60/64 | FE80::2   |
 
 ## Objectives
 - Complete the network documentation.
